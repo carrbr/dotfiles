@@ -11,6 +11,9 @@ export PATH=$PATH:~/.cabal/bin
 # make sure ruby gems work properly
 export PATH=$PATH:/home/brian/.gem/ruby/2.1.0/bin
 
+# add intel compiler software to path
+export PATH=$PATH:/opt/intel/bin
+
 # CCACHE environment vars
 export CCACHE_DIR=~/.ccache
 export CCACHE_HARDLINK=1

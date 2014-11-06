@@ -164,6 +164,9 @@ bindsym Mod1+Mod4+l exec i3lock
 
 # set multi-monitor setup
 exec xrandr --output HDMI1 --rotate left --left-of HDMI2
+exec xrandr --output HDMI2 --pos 1200x620
+# exec feh --no-xinerama --bg-fill '/home/brian/media/photos/wallpapers/TreetopTemple_5120x2397.jpg'
+exec sh /home/brian/.fehbg &
 
 # make sound work
 exec start-pulseaudio-x11
